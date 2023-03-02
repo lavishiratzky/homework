@@ -1,0 +1,20 @@
+.School {
+    color: rgb(60, 34, 151);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed rgb(128, 189, 30);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+}
+.School img{
+    width: 200px;
+    height:200px;
+}
+/* .School iframe{
+    height: 400px;
+    width: 400px;
+} */

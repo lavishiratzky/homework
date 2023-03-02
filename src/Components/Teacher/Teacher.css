@@ -1,0 +1,14 @@
+.Teacher {
+	background-color: #40513B;
+    color: black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed rgb(206, 96, 6);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    border-radius: 25px;
+    grid: row gap 20px;}
