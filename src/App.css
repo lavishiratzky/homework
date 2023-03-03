@@ -67,6 +67,7 @@ align-items: center;
   background-color: green;
   grid-column: 10 span;
   grid-row: 10 span;
+  align-items: center;
 }
 
 .App>.Footer {

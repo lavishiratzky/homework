@@ -4,10 +4,10 @@ import "./Menu.css";
 function Menu(): JSX.Element {
     return (
         <div className="Menu">
-			<Link to="home">Home</Link>
-            <Link to="/school">School</Link>
-            <Link to="/teacherlist">Teachers</Link>
-            <Link to="/map">Map</Link> 
+			<Link to="home" className="a">Home</Link>
+            <Link to="/school"  className="a">School</Link>
+            <Link to="/teacherlist" className="a">Teachers</Link>
+            <Link to="/map" className="a">Map</Link> 
         </div>
     );
 }

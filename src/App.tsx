@@ -10,8 +10,8 @@ function App(): JSX.Element {
   return (
     <div className="App">
       <Header/>
-      <Menu/>
       <Main/>
+      <Menu/>
       <Footer/>
     </div>
   );

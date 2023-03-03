@@ -1,5 +1,5 @@
 /* .Menu { 
-	 display: grid;
+	display: grid;
     flex-direction: column;
     justify-content: flex-start;
     align-items:flex-start;
@@ -14,3 +14,13 @@
 .Menu>*{
     margin: 10px;
 } 
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-size: 30px;
+}
