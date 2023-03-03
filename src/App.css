@@ -1,37 +1,4 @@
-/* .App {
-  background-color: #40513B;
-  height: 100%;
-  width: 100%;
-  display: grid;
- grid-template-rows: 10% 20% 70%; 
-  grid-template-rows: repeat(12, 1fr);
-  grid-template-columns: repeat(12, 1fr);
-}
 
-.App>.Header {
-  background-color: #EDF1D6;
-  grid-column: 12 span;
-  grid-row: 1 span;
-}
-
- .App>.Menu {
-  background-color: pink;
-  grid-column: 2 span;
-  grid-row: 10 span;
-  display:grid ;
-} 
-
-.App>.Main {
-  background-color: #9DC08B;
-  grid-column: 12 span;
-  grid-row: 10 span;
-}
-
-.App>.Footer {
-  background-color:#609966;
-  grid-column: 12 span;
-  grid-row: 1 span;
-} */
 .App {
   background-color: aqua;
   height: 100%;
@@ -48,22 +15,27 @@
   display: flex;
   /* flex-direction: row; */
   justify-content: center;
-align-items: center;
+  align-items: center;
   grid-column: 12 span;
   grid-row: 1 span;
+  border: 2px solid black;
 }
 
 .App>.Menu {
   background-color: pink;
   grid-column:2 span;
   grid-row: 10 span;
-  display:grid }
+  display:grid; 
+  border: 2px solid black;
+  
+}
 
 .App>.Main {
   background-color: green;
   grid-column: 10 span;
   grid-row: 10 span;
   align-items: center;
+  border: 2px solid black;
 }
 
 .App>.Footer {
@@ -74,6 +46,5 @@ align-items: center;
   display:flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid black;
 }
-
-
