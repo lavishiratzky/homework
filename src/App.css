@@ -32,7 +32,7 @@
   grid-column: 12 span;
   grid-row: 1 span;
 } */
-App {
+.App {
   background-color: aqua;
   height: 100%;
   width: 100%;
@@ -51,10 +51,6 @@ App {
 align-items: center;
   grid-column: 12 span;
   grid-row: 1 span;
-}
-.app >.Header > .img{ 
-  width: 100px;
-  margin: 0 auto;
 }
 
 .App>.Menu {
