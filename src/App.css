@@ -1,6 +1,6 @@
 
 .App {
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 100%;
   width: 100%;
   display: grid;
@@ -11,7 +11,7 @@
 }
 
 .App>.Header {
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
   /* flex-direction: row; */
   justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 .App>.Menu {
-  background-color: pink;
+  /* background-color: pink; */
   grid-column:2 span;
   grid-row: 10 span;
   display:grid; 
@@ -31,7 +31,7 @@
 }
 
 .App>.Main {
-  background-color: green;
+  /* background-color: green; */
   grid-column: 10 span;
   grid-row: 10 span;
   align-items: center;
@@ -39,7 +39,7 @@
 }
 
 .App>.Footer {
-  background-color: orangered;
+  /* background-color: orangered; */
   grid-column: 12 span;
   grid-row: 1 span;
   font-size: 24px;
