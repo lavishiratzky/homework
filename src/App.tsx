@@ -6,23 +6,26 @@ import Main from './Components/Main/Main';
 import Footer from './Components/Footer/Footer';
 import Menu from './Components/Menu/Menu';
 import Routing from './Components/Routing/Routing';
+type Theme = 'light' | 'dark';
 function App(): JSX.Element {
-  const [theme, setTheme] = useState<string>('light')
-  const changeTheme =() =>{
-    if  (theme =='light'){
+  const [theme, setTheme] = useState<Theme>('light');
+
+  const changeTheme = () => {
+    if (theme === 'light') {
       setTheme('dark');
     }
-    else{
+    else {
       setTheme('light');
     }
   }
   return (
-    <div className={"App ${theme}"}>
-      <button onClick={changeTheme}>{ theme==='dark'? 'MdLightMode' : 'MdDarkMode' }</button>
-      <Header/>
-      <Menu/>
-      <Main/>
-      <Footer/>
+    <div className={`App ${theme}`}>
+      <button onClick={changeTheme}>
+        {theme === 'dark' ? '🌕' : '🌚'}</button>
+      <Header />
+      <Menu />
+      <Main />
+      <Footer />
     </div>
   );
 }

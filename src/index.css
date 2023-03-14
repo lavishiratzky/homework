@@ -1,15 +1,29 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
 
-.light{
+:root {
   --primary-color: black;
   --secondary-color: rgb(41, 194, 86);
   --background-color: white;
 }
-.dark{
-  --primary-color: rgb(250, 246, 246);
+
+.light {
+  --primary-color: black;
   --secondary-color: rgb(41, 194, 86);
-  --background-color: rgb(12, 11, 11);
+  --background-color: white;
+ 
+}
+
+.dark {
+  --primary-color: white;
+  --secondary-color: rgb(41, 194, 86);
+  --background-color: black;
+
+}
+
+*{
+  color: var(--primary-color);
+  background-color: var(--background-color);
 }
 
 
@@ -24,18 +38,20 @@
 
 body {
   margin: 0;
-font-family: 'Mynerve';
+  font-family: 'Mynerve';
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-html,body,#root{
+
+html,
+body,
+#root {
   height: 100%;
   width: 100%;
   padding: 0px;
   margin: 0px;
-  
-}
 
+}
