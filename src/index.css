@@ -2,25 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
 
 :root {
-  --primary-color: black;
-  --secondary-color: rgb(41, 194, 86);
-  --background-color: white;
+  --primary-color:;
+  --secondary-color: ;
+  --background-color: ;
 }
-
 .light {
   --primary-color: black;
   --secondary-color: rgb(41, 194, 86);
   --background-color: white;
  
 }
-
 .dark {
   --primary-color: white;
   --secondary-color: rgb(41, 194, 86);
   --background-color: black;
 
 }
-
 *{
   color: var(--primary-color);
   background-color: var(--background-color);
