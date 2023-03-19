@@ -1,0 +1,12 @@
+.CatList .cards-display {
+    background-color: rgb(197, 31, 142);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    
+
+	
+}

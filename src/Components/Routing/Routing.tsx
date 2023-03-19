@@ -8,6 +8,10 @@ import TeacherList from "../TeacherList/TeacherList";
 import Map from "../Map/Map";
 import Page404 from "../Page404/Page404";
 import Menu from "../Menu/Menu";
+import TaskList from "../Pages/TaskList/TaskList";
+import CatList from "../Pages/CatList/CatList";
+import CommentList from "../Pages/CommentList/CommentList";
+import UserList from "../Pages/UserList/UserList";
 function Routing(): JSX.Element {
     return (
         <div className="Routing">
@@ -20,7 +24,10 @@ function Routing(): JSX.Element {
                 <Route path="*" element={<Page404/>}/>
                 <Route path="menu" element={<Menu/>}/>
                 <Route path="school" element={<School name={"jhonbryce"} Phone={"035344850"}/>}/>
-                
+                <Route path="CatList" element={<CatList/>}/>
+                <Route path="TaskList" element={<TaskList/>}/>
+                <Route path="CommentList" element={<CommentList/>}/>
+                <Route path="UserList" element={<UserList/>}/>
 
             </Routes>
         </div>
