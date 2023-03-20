@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 import "./CatList.css";
-import { CatModel } from "../../../Models/CatModel"
+import { CatModel } from "../../../Models.ts/CatModel"
 import axios from "axios";
 import CatCard from "../CatCard/CatCard";
 function CatList(): JSX.Element {

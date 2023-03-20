@@ -1,4 +1,4 @@
-import { CatModel } from "../../../Models/CatModel";
+import { CatModel } from "../../../Models.ts/CatModel";
 import "./CatCard.css";
 interface CatCardProps{cat:CatModel}
 function CatCard(props:CatCardProps): JSX.Element {
